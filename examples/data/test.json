@@ -1,6 +1,8 @@
 [
   {
-    "label": "AFL2455",
+    "targetOptions":{
+      "label": "AFL2455"
+    },
     "coordinates": [
       {
         "lng": 134.87333333333333,
@@ -229,7 +231,9 @@
     ]
   },
   {
-    "label": "AAR5419",
+    "targetOptions":{
+      "label": "AAR5419"
+    },
     "coordinates": [
       {
         "lng": 133.78486666666666,
@@ -250,7 +254,9 @@
     ]
   },
   {
-    "label": "ALF2305",
+    "targetOptions":{
+      "label": "ALF2305"
+    },
     "coordinates": [
       {
         "lng": 131.01421333333334,
