@@ -54,6 +54,7 @@ export const Track = L.Class.extend({
     // 先判断最后一个点是否为原始点
     let endpoint = this.getTrackPointByTime(time)
     let startPt = this.getStartTrackPoint()
+    const label = startPt.label;
     let endPt = this.getEndTrackPoint()
     let times = this.getTimes()
     if (time < startPt.time || time > endPt.time) return
@@ -105,7 +106,8 @@ export const Track = L.Class.extend({
         lat: y,
         dir: endPt.dir || dir,
         isOrigin: false,
-        time: time
+        time: time,
+        label: label
       }
     }
     return endpoint

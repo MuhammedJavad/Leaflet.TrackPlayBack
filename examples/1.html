@@ -29,7 +29,8 @@
     const trackplayback = L.trackplayback(data, map, {
       targetOptions: {
         useImg: true,
-        imgUrl: './ship.png'
+        imgUrl: './ship.png',
+        showText: true
       }
     });
     const trackplaybackControl = L.trackplaybackcontrol(trackplayback);
